@@ -1,0 +1,19 @@
+{
+  "name": "ai-assistant-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Сайт с ИИ-ассистентом: приветственный экран, чат с историей, стриминг ответов языковой модели",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=20.12"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.134.0",
+    "express": "^5.3.0"
+  }
+}
